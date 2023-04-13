@@ -63,8 +63,13 @@ string infixToPostfix(string infix) {
 
 int main() {
     string input;
-    cout << "Masukkan infix yang ingin diubah menjadi postfix : ";
+    cout << "==================================================================" << endl;
+    cout << "====================Infix to Postfix Converter====================" << endl;
+    cout << "==================================================================" << endl;
+    cout << "||Masukkan infix yang ingin diubah menjadi postfix : ";
     getline(cin, input);
-    cout << "Hasil postfix : " << infixToPostfix(input) << endl;
-    return 0;
+    cout << "==================================================================" << endl;
+    cout << "||Hasil postfix : " << infixToPostfix(input) << endl;
+    cout << "==================================================================" << endl;
+    system("pause");
 }
